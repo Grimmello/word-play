@@ -6,9 +6,21 @@
     <script src="js/jquery-3.1.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>
+      Word Play
     </title>
   </head>
   <body>
-
+    <div class="container">
+      <form id="wordPlay">
+        <div class="form-group">
+          <label for="sentence">Please enter a sentence:</label>
+          <input id="sentence" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn btn-info btn-block" id="submit">Submit</button>
+      </form>
+      <div class="display">
+        <p id="complete"></p>
+      </div>
+    </div>
   </body>
 </html>
